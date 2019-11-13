@@ -7,8 +7,16 @@ import { MoviesService } from '../services/movies.service';
   styleUrls: ['./searchcriteria.component.css']
 })
 export class SearchcriteriaComponent implements OnInit {
+ searchStr: string;
+  searchRes: Array<Object>;
 
+  constructor(private _movieService: MoviesService) {}
 
+  searchMovies() {
+    this._movieService.searchMovies(this.searchStr).subscribe(res => {
+        this.searchRes = res.results;
+    })
+}
   ngOnInit() {
   }
 

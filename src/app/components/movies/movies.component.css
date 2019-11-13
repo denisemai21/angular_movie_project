@@ -13,16 +13,12 @@ p.overview {
 }
 
 div.movieresults {
-    background: white;
     max-width:1024px;
     margin: auto;
     padding: 20px;
     display: flex;
 }
 
-img.movieImage {
-    box-shadow: 3px 3px 3px grey;
-}
 
 div.popularList {
   display: flex;
@@ -50,3 +46,53 @@ img.thumbnail{
     width: 150px;
     padding: 10px;
 }
+
+input {
+  width: 600px;
+  padding: 5px;
+  margin: auto;
+}
+
+button {
+  background-color: lightblue;
+  color: black;
+  border: none;
+  padding: 7px;
+  margin: 5px 5px 0px;
+}
+
+form {
+  margin: auto;
+}
+
+div.moviesearch {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  div.popMovie {
+    text-decoration-color: white;
+  }
+
+  a {
+    color: white;
+  }
+
+  p.title {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  a {
+    font:arial;
+    font-size: 10px;
+background-image: linear-gradient(to right, #a1c4fd 20%, #c2e9fb 51%, #a1c4fd 100%);
+padding: 5px;
+color: rgb(0, 11, 71);
+text-decoration: none;
+border-radius: 10px;
+  }

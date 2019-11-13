@@ -1,5 +1,16 @@
 img{
-    width:100%;
+    width:150px;
+    margin: auto;
+    padding: 20px;
+}
+
+div.container {
+  background: rgba(255, 255, 255, 0.596);
+  width: 1024px;
+  margin: auto;
+height: 450px;
+padding: 10px;
+border-radius: 10px;
 }
 
 p {
@@ -7,42 +18,12 @@ p {
     font-size: 12px;
 }
 
-p.title {
-    text-decoration: bold;
-    font-size: 15px;
+
+a {
+  padding: 25px;
 }
 
-p.overview {
-  font-size: 14px;
-}
-
-div.movieresults {
-    background: white;
-    max-width:1024px;
-    margin: auto;
-    padding: 20px;
-}
-
-img.movieImage {
-    box-shadow: 3px 3px 3px grey;
-}
-
-div.popularList {
-  display: flex;
-}
-
-button {
-  padding: 5px;
-  margin: 0 5px;
-  background-color: #008CBA;
-  color: white;
-}
-
-
-div.searchResults{
-  width: 300px;
-}
-
-div.sidebyside {
- display:inline-block;
+h3 {
+  margin: auto;
+  padding: 0 20px;
 }
